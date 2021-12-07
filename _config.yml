@@ -1,5 +1,6 @@
 theme: jekyll-theme-cayman
 title: Open Demo Bank
 description: ""
+markdown: kramdown
 plugins:
   - jekyll-seo-tag
