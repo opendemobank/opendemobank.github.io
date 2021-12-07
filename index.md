@@ -10,3 +10,4 @@
    5. [Class and object diagram](architecture/class.html)
    6. [Sequence diagrams](architecture/sequence.html)
 2. [Usage manual](usage)
+3. [Worklogs](worklog)
