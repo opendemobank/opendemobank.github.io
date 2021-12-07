@@ -8,17 +8,12 @@
 
 ## Table of contents
 
-[1 Personas](personas.html)
-
-[2 Stories](stories.html)
-
-[3 Usecase diagram](usecase.html)
-
-[4 Component diagram](component.html)
-
-[5 Class and object diagram](class.html)
-
-[6 Sequence diagrams](sequence.html)
+1. [Personas](personas.html)
+2. [Stories](stories.html)
+3. [Usecase diagram](usecase.html)
+4. [Component diagram](component.html)
+5. [Class and object diagram](class.html)
+6. [Sequence diagrams](sequence.html)
 
 ---
 

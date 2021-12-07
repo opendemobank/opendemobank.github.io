@@ -4,9 +4,11 @@
 
 ---
 
-Modeling a system starts from modeling its users. Below are some of the personas we created to model typical system users, their goals and needs.
+Modeling a system starts from modeling its users. Below are some of the personas created to model typical system users, their goals and needs.
 
 ## Customers
+
+### Student
 
 |---|---|
 | Persona: | Student in Tartu University |
@@ -17,6 +19,8 @@ Modeling a system starts from modeling its users. Below are some of the personas
 | Goals and tasks: | - Make money transfers to friends who order group food <br> - Receive money transfers from parents. <br> - Receive monthly stipends from the university. <br> - Keep track of personal spending |
 | Environment: | Well-versed in technology, cannot go without her phone for more than 5 minutes |
 | Quote: | "Why are all deadlines on the same day?" |
+
+### Entrepreneur
 
 |---|---|
 | Persona: | Entrepreneur  |
@@ -30,8 +34,10 @@ Modeling a system starts from modeling its users. Below are some of the personas
 
 ## Administrators
 
+### Banking system administrator
+
 |---|---|
-| Persona: | Open Demo Bank administrator |
+| Persona: | Banking system administrator |
 | Photo: | ![](https://us.123rf.com/450wm/ammentorp/ammentorp1806/ammentorp180600543/103448135-software-developers-sitting-at-office-working-on-computers-happy-application-developer-working-on-a-.jpg?ver=6) |
 | Fictional name: | Hendrik |
 | Job title: | Administrator for Open Demo Bank online system |
@@ -40,8 +46,11 @@ Modeling a system starts from modeling its users. Below are some of the personas
 | Environment: | Good with computers and is attentive to details, which comes in handy, since he is dealing with other people's money |
 | Quote: | "Dealing with bank customers is great fun" |
 
+
+### Customer support administrator
+
 |---|---|
-| Persona: | Open Demo Bank administrator |
+| Persona: | Customer support administrator |
 | Photo: | ![](https://us.123rf.com/450wm/antonioguillem/antonioguillem1605/antonioguillem160500011/59038852-entrepreneur-angry-and-furious-with-a-laptop-in-a-little-office-or-home.jpg?ver=6) |
 | Fictional name: | Sam |
 | Job title: | Administrator for Open Demo Bank online system |
