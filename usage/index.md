@@ -18,4 +18,33 @@ You can log in with the following test user <br><br>
 
 ---
 
+### Login page
+
+![](first_page.png)
+
+The login page is located at http://localhost:3000/. 
+To continue, logging in is necessary.
+**email:** admin@opendemobank.com<br>
+**password:** admin<br>
+
+### Account overview
+
+![](accounts.png)
+After logging in, the admin is directed to the admin panel.
+- If the admin clicks on 'create a new account', he is redirected to a new customer form.
+
+![](customer-new.png)
+
+- If the admin clicks on 'make a new transfer', he is redirected to a new transfer form.
+
+![](money_transfer.png)
+
+- If the admin clicks on 'invoices', he is redirected to the invoice overview page.
+
+![](invoices.png)
+
+- If the admin clicks on 'account 1', he is redirected to the detailed account information.
+
+![](account_detail.png)
+
 [Previous (Sequence diagrams)](../architecture/sequence.md)
