@@ -47,4 +47,8 @@ After logging in, the admin is directed to the admin panel.
 
 ![](account_detail.png)
 
+If the admin now clicks on 'view transaction', he will see this account's transactions.
+
+![](account_transactions.png)
+
 [Previous (Sequence diagrams)](../architecture/sequence.md)
