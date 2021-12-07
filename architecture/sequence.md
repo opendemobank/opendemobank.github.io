@@ -4,6 +4,10 @@
 
 ---
 
+The following sequence diagrams explain the system's inner communication.
+
+## Storning the transaction
+
 ![](images/sequence_storno.svg)
 
 ---

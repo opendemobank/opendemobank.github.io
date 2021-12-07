@@ -1,6 +1,6 @@
 # Open Demo Bank
 
-# Table of contents
+## Table of contents
 
 [1. Achitecture overview](architecture)
 

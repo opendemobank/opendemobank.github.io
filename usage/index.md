@@ -1,5 +1,9 @@
 # Usage manual
 
-[Back](/)
+[Main](/)
+
+---
+
+---
 
 [Previous (Sequence diagrams)](../architecture/sequence.html)

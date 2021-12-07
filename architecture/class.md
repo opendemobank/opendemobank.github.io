@@ -6,6 +6,8 @@
 
 ## Class diagrams
 
+The system is too big to fit in one class diagram. Class diagrams below provide an overview of classes under the respective components.
+
 ### Domain
 
 ![](images/class_domain.svg)
@@ -19,6 +21,8 @@
 ![](images/class_repository.svg)
 
 ## Object diagram
+
+![](images/object.svg)
 
 ---
 
