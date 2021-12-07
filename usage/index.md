@@ -15,6 +15,7 @@
 You can log in with the following test user <br><br>
 **email:** admin@opendemobank.com<br>
 **password:** admin<br>
+
 ---
 
-[Previous (Sequence diagrams)](../architecture/sequence.html)
+[Previous (Sequence diagrams)](../architecture/sequence.md)
