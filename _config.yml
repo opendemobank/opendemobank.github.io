@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+title: Open Demo Bank
+description: ""
+plugins:
+  - jekyll-seo-tag
