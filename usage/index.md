@@ -2,5 +2,4 @@
 
 [Back](/)
 
-* TOC
-{:toc}
+[Previous (Sequence diagrams)](../architecture/sequence.html)

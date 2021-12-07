@@ -2,20 +2,26 @@
 
 [Architecture overview](index.html)
 
-* TOC
-{:toc}
+---
 
-## Domain
+## Class diagrams
+
+### Domain
 
 ![](images/class_domain.svg)
 
-## Integration
+### Integration
 
 ![](images/class_integration.svg)
 
-## Repository
+### Repository
 
 ![](images/class_repository.svg)
 
-[Component diagram](component.html)
-[Sequence diagram](sequence.html)
+## Object diagram
+
+---
+
+[Previous (Component diagram)](component.html)
+
+[Next (Sequence diagram)](sequence.html)
