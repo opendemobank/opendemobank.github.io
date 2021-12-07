@@ -51,4 +51,8 @@ If the admin now clicks on 'view transaction', he will see this account's transa
 
 ![](account_transactions.png)
 
+When clicking on a specific transaction, the user will see detailed information about this transaction.
+
+![](transaction_detailed.png)
+
 [Previous (Sequence diagrams)](../architecture/sequence.md)
