@@ -4,29 +4,26 @@
 
 ---
 
-After modeling the system users, modeling their behavior takes place. There exist 10 distinct stories:
+After modeling the system users, modeling their behavior takes place. There exist 7 distinct stories:
 
 Customer:
 
-1. Making a transfer (same currency)
-2. Making a transfer (different currencies)
-3. Requesting transfer using QR code
+1. Making a transfer
+2. Requesting transfer using QR code
 
 Administrator:
 
-4. Registering the customer
-5. Opening an account
-6. Adding money to the account
-7. Editing the transaction (same currency)
-8. Editing the transaction (different currencies)
-9. Storning the transaction (same currency)
-10. Storning the transaction (different currencies)
+3. Registering the customer
+4. Opening an account
+5. Adding money to the account
+6. Editing the transaction
+7. Storning the transaction
 
 ## Customer
 
-### 1. Making a transfer (same currency)
+### 1. Making a transfer
 
-|Use Case UC-3: |Make a transfer|
+|Use Case UC-1: |Make a transfer|
 |-------------|-------------|
 |Initiating Actor:     |Customer |
 |Actor’s Goal:         |Make a transfer from my account to another account|
@@ -57,45 +54,10 @@ Flow of Events for Extensions (Alternate Scenarios): What could go wrong? List t
 
 The arrows on the left indicate the direction of interaction: → Actor’s action; ← System’s reaction
 
-### 2. Making a transfer (different currencies)
-
-|Use Case UC-4: |Make a transfer|
-|-------------|-------------|
-|Initiating Actor:     |Customer |
-|Actor’s Goal:         |Make a transfer from my account to another account|
-|Participating Actors: |Bank |
-|Preconditions:        |Customer has an account; Customer has logged in |
-|Postconditions:       |The customer has successfully made a transfer to different currency. |
-
-Flow of Events for Main Success Scenario:
-
-| | | |
-|-------------|-------------|-------------|
-| →  | 1.  | Customer logs into the system using her email and password. |
-| ←  | 2.  | The system opens the main page.|
-| →  | 3.  | Customer clicks on a “make new transfer” button. |
-| ←  | 4.  | The system opens the money transfer form. |
-| →  | 5.  | Customer enters recipient information (either phone number, email, IBAN), amount to transfer, currency from, currency to, description. |
-| →  | 6.  | Customer clicks on the “Transfer” button. |
-| ←  | 7.  | The system converts the currency.|
-| ←  | 8.  | The system alerts about a new successful transfer.|
-
-Flow of Events for Extensions (Alternate Scenarios): What could go wrong? List the exceptions to the routine and describe how they are handled
-
-| | | |
-|-------------|-------------|-------------|
-| → | 5a. |The system message that some required field is not filled.|
-| → | 5b. |The receiver's phone number, email, IBAN does not exist, is incorrect or is unavailable|
-| → | 5c. |There is not enough money on sender’s account. |
-| → | 7a. |System does not have the possibility to convert this currency. |
-| ← | 7b. |The system displays an error message.|
-
-The arrows on the left indicate the direction of interaction: → Actor’s action; ← System’s reaction
-
-### 3. Requesting transfer using QR code
+### 2. Requesting transfer using QR code
 
 
-|Use Case number: | UC-5 |
+|Use Case number: | UC-2 |
 |-------------|-------------|
 |Initiating Actor:     |Customer |
 |Actor’s Goal:         |Sender successfully transfers money to a receiver |
@@ -125,9 +87,9 @@ Alternative flow:
 
 ## Administrator
 
-### 4. Registering the customer
+### 3. Registering the customer
 
-|Use Case UC-1: |Register a user|
+|Use Case UC-3: |Register a user|
 |-------------|-------------|
 |Initiating Actor:     |Admin |
 |Actor’s Goal:         |Register a customer to use the bank      |
@@ -152,9 +114,9 @@ Flow of Events for Extensions (Alternate Scenarios): What could go wrong? List t
 | → | 1a. |The admin leaves some fields blank |
 | ← | 1b. |The system displays an error message|
 
-### 5. Opening an account
+### 4. Opening an account
 
-|Use Case UC-2: |Open an account|
+|Use Case UC-4: |Open an account|
 |-------------|-------------|
 |Initiating Actor:     |Admin |
 |Actor’s Goal:         |Create an account for a user|
@@ -181,9 +143,9 @@ Flow of Events for Extensions (Alternate Scenarios): What could go wrong? List t
 
 The arrows on the left indicate the direction of interaction: → Actor’s action; ← System’s reaction
 
-### 6. Adding money to the account
+### 5. Adding money to the account
 
-|Use Case number: | UC-6 |
+|Use Case number: | UC-5 |
 |-------------|-------------|
 |Initiating Actor:     |Admin |
 |Actor’s Goal:         |Admin adds money to a customer's account|
@@ -209,13 +171,35 @@ Alternative flow:
 | 3a-1. |If a cutomer doesn't know his or her account number, as an Adminitraotr, I type "last name", "first name", "Date of birth" to get the customer account. |
 | 3a-2. |As an administrator, I find the correct account that the customer wants to add the money. |
 
-### 7. Editing the transaction (same currency)
+### 6. Editing the transaction
 
-### 8. Editing the transaction (different currencies)
+|Use Case number: | UC-6 |
+|-------------|-------------|
+|Initiating Actor:     |Admin |
+|Actor’s Goal:         |Admin edits transaction|
+|Participating Actors: |Customer, bank |
+|Preconditions:        | - The bank has an admin <br> - The admin is logged in |
+|Postconditions:       | - A customer already created an account in the bank |
 
-### 9. Storning the transaction (same currency)
+Flow of Events for Main Success Scenario:
 
-### 10. Storning the transaction (different currencies)
+| | |
+|-------------|-------------|
+| 1.  |As an Admin, I log in to my account |
+| 2.  |As an Admin, I search an account the customer has by referencing the account number |
+| 3.  |As an Admin, I found the account on my screen |
+| 4.  |As an Admin, I search for the transaction I want to edit. |
+| 5.  |As an Admin, I edit the transaction. |
+| 6.  |As an Admin, I click "save" so that I can confirm the transaction was successfully edited.
+
+Alternative flow:
+
+| | |
+|-------------|-------------|
+| 5a. |I edit the transaction incorrectly |
+| 6a. |I get an error message. |
+
+### 7. Storning the transaction
 
 ---
 
