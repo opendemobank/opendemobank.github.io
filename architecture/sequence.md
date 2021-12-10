@@ -33,4 +33,4 @@ The following sequence diagrams explain the system's inner communication.
 
 [Previous (Class and object diagrams)](class.html)
 
-[Next (Usage manual)](../usage)
+[Next (Deployment diagram)](deployment.html)

@@ -68,4 +68,4 @@ When clicking on a specific transaction, the user will see detailed information 
 
 ![](images/transaction_detailed.png)
 
-[Previous (images/Sequence diagrams)](../architecture/sequence.md)
+[Previous (Deployment diagram)](../architecture/deployment.md)

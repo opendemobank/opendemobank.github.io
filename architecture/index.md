@@ -14,6 +14,7 @@
 4. [Component diagram](component.html)
 5. [Class and object diagram](class.html)
 6. [Sequence diagrams](sequence.html)
+7. [Deployment diagram](deployment.html)
 
 ---
 

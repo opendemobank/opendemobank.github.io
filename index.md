@@ -9,5 +9,6 @@
    4. [Component diagram](architecture/component.md)
    5. [Class and object diagram](architecture/class.md)
    6. [Sequence diagrams](architecture/sequence.md)
+   7. [Deployment diagrams](architecture/deployment.md)
 2. [Usage manual](usage)
 3. [Worklogs](worklog)
