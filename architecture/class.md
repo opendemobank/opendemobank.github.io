@@ -7,6 +7,10 @@
 
 ---
 
+The application was developed according to the MVC software design pattern.
+
+There are multiple GoF patterns implemented in the code. For example, constant (over)usage of interfaces implements **template method** pattern, `Transfer` is a **facade** for `Transaction`.
+
 ## Class diagrams
 
 The system is too big to fit in one class diagram.
