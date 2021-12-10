@@ -10,23 +10,19 @@
 ## Setup guide
 
 1. Clone the repository with the following command:
-
-  ```bash
-  git clone https://github.com/opendemobank/web-client.git
-  ```
-
+    ```bash
+    git clone https://github.com/opendemobank/web-client.git
+    ```
 2. Run the following commands in git bash, in order to update npm and install react-scripts with it:
-
-  ```
-  npm install -g npm@latest
-  npm install react-scripts --save
-  ```
-
+    ```
+    npm install -g npm@latest
+    npm install react-scripts --save
+    ```
 3. You can login at [http://localhost:3000/](http://localhost:3000/) with the following credentials:
 
-**email:** admin@opendemobank.com
+    **email:** admin@opendemobank.com
 
-**password:** admin
+    **password:** admin
 
 ---
 
@@ -36,10 +32,11 @@
 
 ![](images/first_page.png)
 
-The login page is located at http://localhost:3000/.
-To continue, logging in is necessary.
-**email:** admin@opendemobank.com<br>
-**password:** admin<br>
+The login page is located at [http://localhost:3000/](http://localhost:3000/). To continue, logging in is necessary.
+
+**email:** admin@opendemobank.com
+
+**password:** admin
 
 ### Account overview
 
