@@ -2,6 +2,9 @@
 
 [Architecture overview](index.html)
 
+* TOC
+{:toc}
+
 ---
 
 Modeling a system starts from modeling its users. Below are some of the personas created to model typical system users, their goals and needs.

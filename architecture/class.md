@@ -2,11 +2,18 @@
 
 [Architecture overview](index.html)
 
+* TOC
+{:toc}
+
 ---
 
 ## Class diagrams
 
-The system is too big to fit in one class diagram. Class diagrams below provide an overview of classes under the respective components.
+The system is too big to fit in one class diagram.
+
+![](images/class.svg)
+
+Class diagrams below provide an overview of classes under the respective components.
 
 ### Domain
 

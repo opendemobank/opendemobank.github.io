@@ -2,6 +2,9 @@
 
 [Architecture overview](index.html)
 
+* TOC
+{:toc}
+
 ---
 
 The following sequence diagrams explain the system's inner communication.
