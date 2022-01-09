@@ -44,23 +44,23 @@ The login page is located at [http://localhost:3000/](http://localhost:3000/). T
 
 After logging in, the admin is directed to the admin panel.
 
-If the admin clicks on 'create a new account', he is redirected to a new customer form.
+If the admin clicks on 'create new account', he is redirected to a new customer form.
 
 ![](images/customer-new.png)
 
-If the admin clicks on 'make a new transfer', he is redirected to a new transfer form.
+If the admin clicks on 'create new transaction', he is redirected to a new transaction form.
 
 ![](images/money_transfer.png)
 
-If the admin clicks on 'invoices', he is redirected to the invoice overview page.
+If the admin clicks on 'transactions', he is redirected to the transaction overview page.
 
 ![](images/invoices.png)
 
-If the admin clicks on 'account 1', he is redirected to the detailed account information.
+If the admin clicks on 'Account IBAN : EE801100000000000015', he is redirected to the detailed account information.
 
 ![](images/account_detail.png)
 
-If the admin now clicks on 'view transaction', he will see this account's transactions.
+If the admin now clicks on 'view transactions', he will see this account's transactions.
 
 ![](images/account_transactions.png)
 
